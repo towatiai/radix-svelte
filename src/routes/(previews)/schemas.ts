@@ -19,6 +19,7 @@ import { schema as HoverCard } from './HoverCard/schema';
 
 import { schema as Avatar } from './Avatar/schema';
 import { schema as Separator } from './Separator/schema';
+import { schema as Popover } from './Popover/schema';
 
 export const schemas = {
 	accordion: Accordion,
@@ -31,6 +32,7 @@ export const schemas = {
 	switch: Switch,
 	toggle: Toggle,
 	progress: Progress,
+    popover: Popover,
 	popper: Popper,
 	dialog: Dialog,
 	tabs: Tabs,
